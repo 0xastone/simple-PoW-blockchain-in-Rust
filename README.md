@@ -1,1 +1,2 @@
-# Simple PoW Blockchain in Rust\nA proof-of-work blockchain implemented in Rust.
+# Simple PoW Blockchain in Rust
+A proof-of-work blockchain implemented in Rust.
