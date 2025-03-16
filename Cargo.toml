@@ -1,0 +1,12 @@
+[package]
+name = "rust_blockchain"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+actix-web = "4" #Webserver Framework
+serde = { version = "1.0", features = ["derive"]} # JSON for serialization
+sha2 = "0.10.8"
+chrono = "0.4.19"
+reqwest = { version = "0.12.14", features = ["json"] } # HTTP client
+tokio = { version = "1.0", features = ["full"] } # Async runtime
